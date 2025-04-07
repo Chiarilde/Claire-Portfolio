@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to bottom, #eab4cd, #ebe9af);
+    font-family: "Nunito";
+    min-height: 100vh;
+}
+.btn {
+    background-color: #140d20;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #d3acf8;
+    color: #140d20;
+}
+.custom {
+    background: linear-gradient(to right, #7daaff, #aa5ef3, #ca7bf6);
+    border-radius: 20px;
+}
+.custom1 {
+    border-radius: 20px;
+}
+img {
+    border-radius: 20px;
+}
+
+h2 {
+    color: white !important;
+}
+.light {
+    background-color: white;
+}
+.io {
+    background-color: #f4f3ff;
+}
+@media (max-width: 767.98px) {
+    .container {
+        border-radius: 0 !important;
+    }
+}

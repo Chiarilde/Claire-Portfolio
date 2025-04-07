@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 0.1rem;
+}
+html,
+body {
+    height: 100%;
+    background: linear-gradient(to right, #62cff4, #2c67f2);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header,
+footer {
+    flex: 0 0 auto;
+}
+
+main {
+    text-align: center;
+    padding: 5vmin;
+    flex: 1 0 auto;
+    margin-top: -50px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+.madein {
+    background-color: white;
+    color: #49a0f3;
+    padding-bottom: 3px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+}
+
+input {
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    width: 25rem;
+    height: 3rem;
+}
+
+body {
+    text-align: center;
+    padding-top: 70px;
+}
+button {
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    margin: 8px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.9;
+    border: none;
+}
+::placeholder {
+    color: lightgrey;
+    border: none;
+}
+form {
+    padding-top: 60px;
+    border: none;
+}
+input {
+    border: none;
+    margin: 2px;
+}
+h2 {
+    color: white;
+    padding-top: 5px;
+    font-size: large;
+}
+ul {
+    color: white;
+    list-style-type: none;
+}
+img {
+    max-width: 15%;
+}
+@keyframes animateWave {
+    0% {
+        background-position-x: 1000px;
+    }
+    100% {
+        background-position-x: 0px;
+    }
+}
+
+@keyframes animateWave_02 {
+    0% {
+        background-position-x: 0px;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+.custom-shape-divider-bottom {
+    margin-top: -5rem;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 0;
+}
+
+.custom-shape-divider-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(123% + 1.3px);
+    height: 170px;
+    transform: rotateY(180deg);
+    animation: waveAnimation 4s linear infinite; /* Adjust the duration as needed */
+}
+
+.custom-shape-divider-bottom .shape-fill {
+    fill: #ffffff;
+}
+
+@media (max-width: 1200px) {
+    /* img {
+        max-width: 20%;
+    } */
+}
+
+@media (max-width: 1000px) {
+    input {
+        margin-bottom: 15px;
+        max-width: 95%;
+    }
+    /* img {
+        max-width: 25%;
+    } */
+}

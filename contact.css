@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to bottom, #eab4cd, #ebe9af);
+    font-family: "Nunito";
+    min-height: 100vh;
+}
+.container {
+    background-color: #f4e7ee;
+    border-radius: 20px;
+}
+.btn {
+    background-color: white;
+    border: none;
+    font-size: 1rem;
+    color: #140d20;
+}
+.btn:hover {
+    background-color: #d3acf8;
+    color: #140d20;
+}
+.form {
+    background-color: #f4e7ee !important;
+}
+@media (max-width: 767.98px) {
+    .container {
+        border-radius: 0 !important;
+    }
+}
