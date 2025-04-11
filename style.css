@@ -38,3 +38,11 @@ h2 {
         border-radius: 0 !important;
     }
 }
+/* Ensuring text wraps in the .lead paragraph */
+.lead {
+    font-size: 1.1rem;
+}
+.lingua {
+    background-color: white;
+    border: none;
+}

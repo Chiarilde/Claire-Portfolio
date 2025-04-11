@@ -22,33 +22,40 @@
         <div class="container col-xxl-10 px-4 py-5 bg-white custom1 mt-md-5 mb-md-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
                 <header
-                    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between m-0"
-                >
-                    <div class="col-md-3 mb-2 mb-md-0 d-none d-md-block d-flex">
-                        <div class="d-flex align-items-center">
-                            <img
-                                src="./Images/logo.png"
-                                alt=""
-                                width="50px"
-                                height="50px"
-                            />
-                            <h4 class="m-0 ms-2">Claire's Portfolio</h4>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 text-end">
-                        <a href="./contact.html" class="btn btn-primary me-2">
-                            Contacts
-                        </a>
-
-                        <button
-                            type="button"
-                            class="btn btn-light light border"
-                        >
-                            CV
+                class="d-flex flex-wrap align-items-center justify-content-between m-0 px-3"
+            >
+                <!-- Sinistra: Logo e titolo -->
+                <div class="col-md-3 mb-2 mb-md-0 d-md-flex align-items-center">
+                    <img
+                        src="./Images/logo.png"
+                        alt=""
+                        width="50px"
+                        height="50px"
+                    />
+                    <h4 class="m-0 ms-2 d-none d-md-flex">Claire's Portfolio</h4>
+                </div>
+            
+                <!-- Destra: Link e bottoni lingua -->
+                <div class="col-md-3 d-flex align-items-center justify-content-end gap-2 mt-md-0">
+                    <a href="./contact.html" class="btn btn-primary">
+                        Contacts
+                    </a>
+                    <a href="./Chiara Nardelli CV.pdf" download class="btn btn-primary me-3">
+                        CV
+                    </a>
+                    <div class="d-flex flex-column mt-3">
+                        <button class="lingua btn p-0 border-0 bg-transparent" onclick="cambiaLingua('it')">
+                            <img src="./Images/italy.png" alt="Italian" width="30px" height="30px">
+                        </button>
+                        <button class="lingua btn p-0 border-0 bg-transparent" onclick="cambiaLingua('en')">
+                            <img src="./Images/uk.png" alt="English" width="30px" height="30px">
                         </button>
                     </div>
-                </header>
+                </div>
+                
+                
+            </header>
+            
                 <div class="mx-auto col-10 col-sm-8 col-lg-6 rounded position-relative ">
                     <img
                         class="d-block mx-lg-auto img-fluid io"
@@ -117,92 +124,93 @@
                     <div class="carousel-item active ms-5">
                         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                             <div class="col-lg-6">
-                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">Slide 1 Title</h2>
-                                <p class="lead text-white">Description for Slide 1.</p>
+                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">Design Studio</h2>
+                                <p class="lead text-white">Architecture website showcasing<br> interior designs.</p>
                                 <button type="button" class="btn btn-light btn-lg px-4 light" onclick="window.location.href='./public/Designer Architecture/designer.html'">Visit Website</button>
 
                             </div>
                             <div class="col-10 col-sm-8 col-lg-6 bordo">
-                                <img class="d-block mx-lg-auto" src="./Images/Designer.png" alt="Bootstrap Themes" width="350" height="210" />
+                                <img class="d-block mx-lg-auto" src="./Images/Designer.png" alt="Bootstrap Themes" width="380" height="210" />
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item ms-5">
                         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                             <div class="col-lg-6">
-                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">Slide 2 Title</h2>
-                                <p class="lead text-white">Description for Slide 2.</p>
+                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">Weather App</h2>
+                                <p class="lead text-white text-wrap">Built using open and public APIs.</p>
                                 <button type="button" class="btn btn-light btn-lg px-4 light" onclick="window.location.href='./public/Weather App/weather.html'">Visit Website</button>
                             </div>
                             <div class="col-10 col-sm-8 col-lg-6 bordo">
-                                <img class="d-block mx-lg-auto" src="./Images/weather.png" alt="Bootstrap Themes" width="350" height="210" />
+                                <img class="d-block mx-lg-auto" src="./Images/weather.png" alt="Weather App" width="380" height="210" />
                             </div>
                         </div>
+                        
                     </div>
                     <div class="carousel-item ms-5">
                         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                             <div class="col-lg-6">
-                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">Slide 3 Title</h2>
-                                <p class="lead text-white">Description for Slide 3.</p>
+                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">UV Ray App</h2>
+                                <p class="lead text-white">Built using open and public UV data APIs.</p>
                                 <button type="button" class="btn btn-light btn-lg px-4 light" onclick="window.location.href='./public/UV Ray App/uvray.html'">Visit Website</button>
                             </div>
                             <div class="col-10 col-sm-8 col-lg-6 bordo">
-                                <img class="d-block mx-lg-auto" src="./Images/uv.png" alt="Bootstrap Themes" width="350" height="210" />
+                                <img class="d-block mx-lg-auto" src="./Images/uv.png" alt="Bootstrap Themes" width="380" height="210" />
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item ms-5">
                         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                             <div class="col-lg-6">
-                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">Slide 4 Title</h2>
-                                <p class="lead text-white">Description for Slide 4.</p>
+                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">Sailing Boats</h2>
+                                <p class="lead text-white">Boat models for enthusiasts and collectors.</p>
                                 <button type="button" class="btn btn-light btn-lg px-4 light" onclick="window.location.href='./public/Sailing Boats/sailing.html'">Visit Website</button>                            </div>
                             <div class="col-10 col-sm-8 col-lg-6 bordo">
-                                <img class="d-block mx-lg-auto" src="./Images/boat.png" alt="Bootstrap Themes" width="350" height="210" />
+                                <img class="d-block mx-lg-auto" src="./Images/boat.png" alt="Bootstrap Themes" width="380" height="210" />
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item ms-5">
                         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                             <div class="col-lg-6">
-                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">Slide 5 Title</h2>
-                                <p class="lead text-white">Description for Slide 5.</p>
+                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">Pumpkins Bistrò</h2>
+                                <p class="lead text-white">Cozy and stylish eatery.</p>
                                 <button type="button" class="btn btn-light btn-lg px-4 light" onclick="window.location.href='./public/Pumpkins Bistro/pumpkins.html'">Visit Website</button>                            </div>
                             <div class="col-10 col-sm-8 col-lg-6 bordo">
-                                <img class="d-block mx-lg-auto" src="./Images/food.png" alt="Bootstrap Themes" width="350" height="210" />
+                                <img class="d-block mx-lg-auto" src="./Images/food.png" alt="Bootstrap Themes" width="380" height="210" />
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item ms-5">
                         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                             <div class="col-lg-6">
-                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">Slide 5 Title</h2>
-                                <p class="lead text-white">Description for Slide 5.</p>
+                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">Eco Travels</h2>
+                                <p class="lead text-white">Travel website offering sustainable and<br> eco-friendly vacation.</p>
                                 <button type="button" class="btn btn-light btn-lg px-4 light" onclick="window.location.href='./public/Eco Travels/travels.html'">Visit Website</button>                            </div>
                             <div class="col-10 col-sm-8 col-lg-6 bordo">
-                                <img class="d-block mx-lg-auto" src="./Images/ecotravels.png" alt="Bootstrap Themes" width="350" height="210" />
+                                <img class="d-block mx-lg-auto" src="./Images/ecotravels.png" alt="Bootstrap Themes" width="380" height="210" />
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item ms-5">
                         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                             <div class="col-lg-6">
-                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">Slide 5 Title</h2>
-                                <p class="lead text-white">Description for Slide 5.</p>
+                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">Cinema App</h2>
+                                <p class="lead text-white">Built integrating open APIs.</p>
                                 <button type="button" class="btn btn-light btn-lg px-4 light" onclick="window.location.href='./public/CinemApp.html/cinemapp.html'">Visit Website</button>                            </div>
                             <div class="col-10 col-sm-8 col-lg-6 bordo">
-                                <img class="d-block mx-lg-auto" src="./Images/cinema.png" alt="Bootstrap Themes" width="350" height="210" />
+                                <img class="d-block mx-lg-auto" src="./Images/cinema.png" alt="Bootstrap Themes" width="380" height="210" />
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item ms-5">
                         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                             <div class="col-lg-6">
-                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">Slide 5 Title</h2>
-                                <p class="lead text-white">Description for Slide 5.</p>
+                                <h2 class="display-5 fw-bold lh-1 mb-3 text-white">BI & Network</h2>
+                                <p class="lead text-white">Professional consultancy website.</p>
                                 <button type="button" class="btn btn-light btn-lg px-4 light" onclick="window.location.href='./public/BI & Network/network.html'">Visit Website</button>                            </div>
                             <div class="col-10 col-sm-8 col-lg-6 bordo">
-                                <img class="d-block mx-lg-auto" src="./Images/BIAnalyst.png" alt="Bootstrap Themes" width="350" height="210" />
+                                <img class="d-block mx-lg-auto" src="./Images/BIAnalyst.png" alt="Bootstrap Themes" width="380" height="210" />
                             </div>
                         </div>
                     </div>
