@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Il Mio Portfolio</title>
+    </head>
+    <body>
+        <div
+            class="container col-xxl-10 px-4 py-5 bg-white custom1 mt-md-5 mb-md-5"
+        >
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
+                <header
+                    class="d-flex flex-wrap align-items-center justify-content-between m-0 px-3"
+                >
+                    <div
+                        class="col-md-3 mb-2 mb-md-0 d-md-flex align-items-center"
+                    >
+                        <img
+                            src="./Images/logo.png"
+                            alt=""
+                            width="50px"
+                            height="50px"
+                        />
+                        <h4 class="m-0 ms-2 d-none d-md-flex">
+                            Portfolio di Chiara
+                        </h4>
+                    </div>
+
+                    <div
+                        class="col-md-3 d-flex align-items-center justify-content-end gap-2 mt-md-0"
+                    >
+                        <a href="./contact.html" class="btn btn-primary"
+                            >Contatti</a
+                        >
+                        <a
+                            href="./Chiara Nardelli CV.pdf"
+                            download
+                            class="btn btn-primary me-3"
+                            >CV</a
+                        >
+                        <div class="d-flex flex-column mt-3">
+                            <button
+                                class="lingua btn p-0 border-0 bg-transparent"
+                                onclick="window.location.href='index.html'"
+                            >
+                                <img
+                                    src="./Images/uk.png"
+                                    alt="English"
+                                    width="30px"
+                                    height="30px"
+                                />
+                            </button>
+                            <button
+                                class="lingua btn p-0 border-0 bg-transparent"
+                                disabled
+                            >
+                                <img
+                                    src="./Images/italy.png"
+                                    alt="Italiano"
+                                    width="30px"
+                                    height="30px"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </header>
+
+                <div
+                    class="mx-auto col-10 col-sm-8 col-lg-6 rounded position-relative"
+                >
+                    <img
+                        class="d-block mx-lg-auto img-fluid io"
+                        src="./Images/star_me-removebg-preview.png"
+                    />
+                    <img
+                        src="./Images/2.png"
+                        style="
+                            position: absolute;
+                            left: 15px;
+                            bottom: -15px;
+                            border-radius: 0 20% 0 0%;
+                        "
+                        width="90px"
+                    />
+                    <img
+                        src="./Images/Untitled design.png"
+                        style="
+                            position: absolute;
+                            right: 20px;
+                            top: -15px;
+                            border-radius: 0 0 0 30%;
+                        "
+                        width="90px"
+                    />
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                        <h1
+                            class="display-5 fw-bold text-body-emphasis lh-1 mb-3"
+                        >
+                            Ciao, sono Chiara
+                        </h1>
+                        <img src="./Images/3.png" width="90px" />
+                    </div>
+
+                    <p class="lead">
+                        Benvenuto nel mio spazio digitale! Sono appassionata di
+                        <strong>web design</strong> e
+                        <strong>sviluppo front-end</strong>, e amo creare siti
+                        web moderni e responsivi.<br />
+                        Dai un'occhiata ai miei <strong>progetti</strong> e
+                        costruiamo insieme qualcosa di fantastico!
+                    </p>
+
+                    <div
+                        class="d-grid gap-2 d-md-flex justify-content-md-start"
+                    >
+                        <a
+                            href="./about.html"
+                            class="btn btn-primary btn-lg px-4 me-md-2"
+                            >Chi Sono</a
+                        >
+                        <a
+                            href="#carouselExample"
+                            class="btn btn-primary btn-lg px-4"
+                            >Progetti</a
+                        >
+                    </div>
+                </div>
+            </div>
+
+            <div
+                id="carouselExample"
+                class="carousel slide container col-xxl-11 px-4 py-5 mt-5 custom"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active ms-5">
+                        <div
+                            class="row flex-lg-row-reverse align-items-center g-5 py-5"
+                        >
+                            <div class="col-lg-6">
+                                <h2
+                                    class="display-5 fw-bold lh-1 mb-3 text-white"
+                                >
+                                    Design Studio
+                                </h2>
+                                <p class="lead text-white">
+                                    Studio di Architettura e interior design.
+                                </p>
+                                <button
+                                    type="button"
+                                    class="btn btn-light btn-lg px-4 light"
+                                    onclick="window.location.href='./public/Designer Architecture/designer.html'"
+                                >
+                                    Visita Sito
+                                </button>
+                            </div>
+                            <div class="col-10 col-sm-8 col-lg-6 bordo">
+                                <img
+                                    class="d-block mx-lg-auto"
+                                    src="./Images/Designer.png"
+                                    alt="Bootstrap Themes"
+                                    width="380"
+                                    height="210"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ms-5">
+                        <div
+                            class="row flex-lg-row-reverse align-items-center g-5 py-5"
+                        >
+                            <div class="col-lg-6">
+                                <h2
+                                    class="display-5 fw-bold lh-1 mb-3 text-white"
+                                >
+                                    Weather App
+                                </h2>
+                                <p class="lead text-white text-wrap">
+                                    Creato con API pubbliche.
+                                </p>
+                                <button
+                                    type="button"
+                                    class="btn btn-light btn-lg px-4 light"
+                                    onclick="window.location.href='./public/Weather App/weather.html'"
+                                >
+                                    Visita Sito
+                                </button>
+                            </div>
+                            <div class="col-10 col-sm-8 col-lg-6 bordo">
+                                <img
+                                    class="d-block mx-lg-auto"
+                                    src="./Images/weather.png"
+                                    alt="Weather App"
+                                    width="380"
+                                    height="210"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ms-5">
+                        <div
+                            class="row flex-lg-row-reverse align-items-center g-5 py-5"
+                        >
+                            <div class="col-lg-6">
+                                <h2
+                                    class="display-5 fw-bold lh-1 mb-3 text-white"
+                                >
+                                    UV Ray App
+                                </h2>
+                                <p class="lead text-white">
+                                    Creato con API pubbliche.
+                                </p>
+                                <button
+                                    type="button"
+                                    class="btn btn-light btn-lg px-4 light"
+                                    onclick="window.location.href='./public/UV Ray App/uvray.html'"
+                                >
+                                    Visita Sito
+                                </button>
+                            </div>
+                            <div class="col-10 col-sm-8 col-lg-6 bordo">
+                                <img
+                                    class="d-block mx-lg-auto"
+                                    src="./Images/uv.png"
+                                    alt="Bootstrap Themes"
+                                    width="380"
+                                    height="210"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ms-5">
+                        <div
+                            class="row flex-lg-row-reverse align-items-center g-5 py-5"
+                        >
+                            <div class="col-lg-6">
+                                <h2
+                                    class="display-5 fw-bold lh-1 mb-3 text-white"
+                                >
+                                    Sailing Boats
+                                </h2>
+                                <p class="lead text-white">
+                                    Modellini di barche per appassionati.
+                                </p>
+                                <button
+                                    type="button"
+                                    class="btn btn-light btn-lg px-4 light"
+                                    onclick="window.location.href='./public/Sailing Boats/sailing.html'"
+                                >
+                                    Visita Sito
+                                </button>
+                            </div>
+                            <div class="col-10 col-sm-8 col-lg-6 bordo">
+                                <img
+                                    class="d-block mx-lg-auto"
+                                    src="./Images/boat.png"
+                                    alt="Bootstrap Themes"
+                                    width="380"
+                                    height="210"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ms-5">
+                        <div
+                            class="row flex-lg-row-reverse align-items-center g-5 py-5"
+                        >
+                            <div class="col-lg-6">
+                                <h2
+                                    class="display-5 fw-bold lh-1 mb-3 text-white"
+                                >
+                                    Pumpkins Bistrò
+                                </h2>
+                                <p class="lead text-white">
+                                    Ristorante e Bistrò.
+                                </p>
+                                <button
+                                    type="button"
+                                    class="btn btn-light btn-lg px-4 light"
+                                    onclick="window.location.href='./public/Pumpkins Bistro/pumpkins.html'"
+                                >
+                                    Visita Sito
+                                </button>
+                            </div>
+                            <div class="col-10 col-sm-8 col-lg-6 bordo">
+                                <img
+                                    class="d-block mx-lg-auto"
+                                    src="./Images/food.png"
+                                    alt="Bootstrap Themes"
+                                    width="380"
+                                    height="210"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ms-5">
+                        <div
+                            class="row flex-lg-row-reverse align-items-center g-5 py-5"
+                        >
+                            <div class="col-lg-6">
+                                <h2
+                                    class="display-5 fw-bold lh-1 mb-3 text-white"
+                                >
+                                    Eco Travels
+                                </h2>
+                                <p class="lead text-white">
+                                    Agenzia di Viaggi che offre esperienze<br />
+                                    ecosostenibili.
+                                </p>
+                                <button
+                                    type="button"
+                                    class="btn btn-light btn-lg px-4 light"
+                                    onclick="window.location.href='./public/Eco Travels/travels.html'"
+                                >
+                                    Visita Sito
+                                </button>
+                            </div>
+                            <div class="col-10 col-sm-8 col-lg-6 bordo">
+                                <img
+                                    class="d-block mx-lg-auto"
+                                    src="./Images/ecotravels.png"
+                                    alt="Bootstrap Themes"
+                                    width="380"
+                                    height="210"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ms-5">
+                        <div
+                            class="row flex-lg-row-reverse align-items-center g-5 py-5"
+                        >
+                            <div class="col-lg-6">
+                                <h2
+                                    class="display-5 fw-bold lh-1 mb-3 text-white"
+                                >
+                                    Cinema App
+                                </h2>
+                                <p class="lead text-white">
+                                    Creato con API pubbliche.
+                                </p>
+                                <button
+                                    type="button"
+                                    class="btn btn-light btn-lg px-4 light"
+                                    onclick="window.location.href='./public/CinemApp.html/cinemapp.html'"
+                                >
+                                    Visita Sito
+                                </button>
+                            </div>
+                            <div class="col-10 col-sm-8 col-lg-6 bordo">
+                                <img
+                                    class="d-block mx-lg-auto"
+                                    src="./Images/cinema.png"
+                                    alt="Bootstrap Themes"
+                                    width="380"
+                                    height="210"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ms-5">
+                        <div
+                            class="row flex-lg-row-reverse align-items-center g-5 py-5"
+                        >
+                            <div class="col-lg-6">
+                                <h2
+                                    class="display-5 fw-bold lh-1 mb-3 text-white"
+                                >
+                                    BI & Network
+                                </h2>
+                                <p class="lead text-white">
+                                    Agenzia di Consulenza.
+                                </p>
+                                <button
+                                    type="button"
+                                    class="btn btn-light btn-lg px-4 light"
+                                    onclick="window.location.href='./public/BI & Network/network.html'"
+                                >
+                                    Visita Sito
+                                </button>
+                            </div>
+                            <div class="col-10 col-sm-8 col-lg-6 bordo">
+                                <img
+                                    class="d-block mx-lg-auto"
+                                    src="./Images/BIAnalyst.png"
+                                    alt="Bootstrap Themes"
+                                    width="380"
+                                    height="210"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExample"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Precedente</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExample"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Successivo</span>
+                </button>
+            </div>
+
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="prev"
+            >
+                <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Precedente</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="next"
+            >
+                <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Successivo</span>
+            </button>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

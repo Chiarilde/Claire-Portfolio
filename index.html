@@ -16,6 +16,8 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="./style.css" />
+        <script src="./script.js"></script>
+
         <title>My Portfolio</title>
     </head>
     <body>
@@ -44,11 +46,11 @@
                         CV
                     </a>
                     <div class="d-flex flex-column mt-3">
-                        <button class="lingua btn p-0 border-0 bg-transparent" onclick="cambiaLingua('it')">
-                            <img src="./Images/italy.png" alt="Italian" width="30px" height="30px">
-                        </button>
-                        <button class="lingua btn p-0 border-0 bg-transparent" onclick="cambiaLingua('en')">
+                        <button class="lingua btn p-0 border-0 bg-transparent" disabled>
                             <img src="./Images/uk.png" alt="English" width="30px" height="30px">
+                        </button>
+                        <button class="lingua btn p-0 border-0 bg-transparent" onclick="window.location.href='index-it.html'">
+                            <img src="./Images/italy.png" alt="Italiano" width="30px" height="30px">
                         </button>
                     </div>
                 </div>
