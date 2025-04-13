@@ -7,8 +7,11 @@ body {
     background-color: #140d20;
     border: none;
     font-size: 1rem;
+    color: white;
 }
-
+.btn btn-light {
+    color: #140d20;
+}
 .btn:hover {
     background-color: #d3acf8;
     color: #140d20;
@@ -29,16 +32,18 @@ h2 {
 }
 .light {
     background-color: white;
+    color: #140d20;
 }
+
 .io {
     background-color: #f4f3ff;
 }
 @media (max-width: 767.98px) {
-    .container {
+    .notrounded {
         border-radius: 0 !important;
     }
 }
-/* Ensuring text wraps in the .lead paragraph */
+
 .lead {
     font-size: 1.1rem;
 }
