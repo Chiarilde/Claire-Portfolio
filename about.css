@@ -49,4 +49,7 @@ p.lead {
     .img1 {
         display: none;
     }
+    .img3 {
+        width: 100px;
+    }
 }

@@ -25,3 +25,8 @@ body {
         border-radius: 0 !important;
     }
 }
+@media (max-width: 576px) {
+    label[for="floatingMessage"] {
+        font-size: 0.85rem;
+    }
+}
