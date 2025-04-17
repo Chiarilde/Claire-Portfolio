@@ -43,15 +43,20 @@ h2 {
         border-radius: 0 !important;
     }
 }
-@media (max-width: 576px) {
-    .leadjustify {
-        text-align: justify;
-    }
-}
+
 .lead {
     font-size: 1.1rem;
 }
 .lingua {
     background-color: white;
     border: none;
+}
+.justify {
+    text-align: justify;
+}
+
+@media (max-width: 767.98px) {
+    .scale {
+        width: 60px;
+    }
 }
