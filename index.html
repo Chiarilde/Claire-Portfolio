@@ -244,13 +244,15 @@
 </div>
 
 <script>
-    if (!localStorage.getItem("privacyAccepted")) {
+    if (!sessionStorage.getItem("privacyAccepted")) {
         document.getElementById("cookie-banner").style.display = "block";
+        document.body.style.overflow = "hidden"; // ❌ Blocca lo scroll
     }
 
     document.getElementById("accept-cookie").addEventListener("click", function () {
-        localStorage.setItem("privacyAccepted", "true");
+        sessionStorage.setItem("privacyAccepted", "true");
         document.getElementById("cookie-banner").style.display = "none";
+        document.body.style.overflow = ""; // ✅ Riattiva lo scroll
     });
 </script>
     </body>
